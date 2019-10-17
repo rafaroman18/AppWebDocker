@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-ADD /home/rafa/VS/Practica2/AppWebDocker/web_project .
+COPY web_project/* . 
 RUN apt update -y && apt upgrade -y
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
