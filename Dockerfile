@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-COPY web_project/* ./web_project 
+COPY web_project/* ./web_project/ 
 RUN apt update -y && apt upgrade -y
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
