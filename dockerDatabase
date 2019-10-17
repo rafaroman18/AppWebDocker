@@ -1,0 +1,3 @@
+FROM
+COPY ./db.sql
+EXPOSE el puerto que sea jabe
