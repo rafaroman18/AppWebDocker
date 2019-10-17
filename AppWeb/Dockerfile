@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt update && apt upgrade
+RUN apt update -y && apt upgrade -y
 RUN apt-get install python3
 RUN apt-get install python3-pip
 RUN pip3 install django
