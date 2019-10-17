@@ -1,2 +1,7 @@
 FROM Ubuntu
-
+RUN sudo apt update && sudo apt upgrade
+RUN sudo apt-get install python-pip
+RUN sudo pip install django
+RUN sudo pip install django-crispy-forms
+RUN sudo apt-get install python-dev default-libmysqlclient-dev
+RUN sudo pip mysqlclient
