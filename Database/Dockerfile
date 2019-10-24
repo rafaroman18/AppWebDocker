@@ -1,3 +1,3 @@
 FROM maridb:latest
-COPY . db.sql
+COPY db.sql .
 EXPOSE 4000
