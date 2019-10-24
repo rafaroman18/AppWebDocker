@@ -9,5 +9,5 @@ RUN apt-get install python3-dev -y
 RUN apt-get install python-dev default-libmysqlclient-dev -y
 RUN apt install mariadb-client -y
 RUN pip3 install mysqlclient
-EXPOSE 4000
+EXPOSE 80
 

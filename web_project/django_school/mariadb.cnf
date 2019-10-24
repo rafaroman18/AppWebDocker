@@ -1,7 +1,7 @@
 [client]
-host = [rellenar]
-port = [rellenar]
-database = [rellenar]
+host = 0.0.0.0
+port = 81
+database = db.sql
 user = root
-password = [rellenar]
+password = rafayyolosmejore
 default-character-set = utf8
