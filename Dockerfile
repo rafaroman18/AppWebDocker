@@ -1,3 +1,4 @@
-FROM maridb:latest
-ADD db.sql .
-EXPOSE 81
+FROM mariadb:latest
+ADD ./web_project/db.sql .
+EXPOSE 4096
+ENV MYSQL_ROOT_PASSWORD=rafayyolosmejore

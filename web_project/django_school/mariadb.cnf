@@ -1,7 +1,7 @@
 [client]
-host = 0.0.0.0
-port = 81
-database = db.sql
+host = 172.17.0.1
+port = 4096
+database = uca_quiz
 user = root
 password = rafayyolosmejore
 default-character-set = utf8
