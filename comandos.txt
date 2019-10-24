@@ -1,0 +1,7 @@
+source /home/rafa/VS/Practica2/AppWebDocker/web_project/db.sql
+
+sudo docker run -p 4096:3306 database
+
+mysql -u root -p --host=0.0.0.0 --port=4096
+
+(y ahora falta ejecutar el app web)
