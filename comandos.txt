@@ -5,3 +5,5 @@ sudo docker run -p 4096:3306 database
 mysql -u root -p --host=0.0.0.0 --port=4096
 
 sudo docker run -itp 4097:4097 appweb
+
+python3 manage.py runserver 0.0.0.0:4097
